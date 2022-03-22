@@ -1,0 +1,140 @@
+/*====================*/
+/* DCL */
+.parcel-modal-new {
+  .modal-lg {
+    max-width: 850px !important;
+  }
+  .dcl-opacity {
+    opacity: 0.6;
+  }
+  .dcl {
+    position: relative;
+  }
+  .dcl,
+  .dcl .modal-body {
+    /* max-width: 800px; */
+    max-height: 800px;
+    min-width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .dcl .modal-body > h2 {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    color: #f29e2a;
+    margin-top: 10px;
+  }
+  .dcl .close-dcl {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .dcl .close-dcl img {
+    cursor: pointer;
+    max-width: 75%;
+  }
+  .dcl {
+    background-image: url(../../assets/Rectangle23-1.png);
+    background-size: cover;
+  }
+  .dcl .inner-dcl img {
+    width: 100%;
+  }
+  .dcl .inner-dcl .dcl-content {
+    border-bottom: 1.5px dotted rgb(153, 153, 153/56%);
+  }
+  .dcl .inner-dcl .dcl-content h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    color: #000000;
+    min-height: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .dcl .inner-dcl .dcl-content p {
+    opacity: 0.7;
+    margin-bottom: 10px;
+    text-align: justify;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #7f7f7f;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .dcl .inner-dcl .dcl-price {
+    padding: 10px 0;
+    border-bottom: 1.5px dotted rgb(153, 153, 153 / 56%);
+  }
+  .dcl .inner-dcl .dcl-price h5 {
+    font-weight: bold;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #808080;
+  }
+  .dcl .inner-dcl .dcl-price h4 {
+    font-size: 18px;
+  }
+  .dcl .inner-dcl .price-range {
+    /* padding-top: 20px;
+    padding-right: 20px; */
+  }
+  .dcl .inner-dcl .price-range h5 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #808080;
+  }
+  .dcl .inner-dcl .price-range .to {
+    font-size: 20px;
+    line-height: 1.9;
+  }
+  .dcl .inner-dcl .price-range input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #838383;
+    outline: none;
+  }
+
+  .dcl .inner-dcl .price-range textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid #838383;
+    outline: none;
+  }
+  .dcl .inner-dcl .price-range button {
+    width: 100%;
+    color: #fff;
+    margin: 30px 0px;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .dcl .inner-dcl .price-range .update {
+    background-color: #f29e2a;
+  }
+  .dcl .inner-dcl .price-range .remove {
+    background-color: #dc3545;
+  }
+}
+/*====================*/

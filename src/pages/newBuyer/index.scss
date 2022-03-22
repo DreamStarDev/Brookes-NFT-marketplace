@@ -1,0 +1,1308 @@
+:root {
+  --main-color: #dca85e;
+  --sec-color: #003774;
+  --main1-color: #ffbd4a;
+  --back-color: #f7f7f7;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.main-color {
+  color: #dca85e;
+}
+
+.main1-color {
+  color: var(--main1-color);
+}
+
+.sec-color {
+  color: #003774;
+}
+
+.seller-comp {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*=======================*/
+  /* Sectoion landing*/
+  .landing {
+    background-image: url("../../assets/seller-container.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+    overflow: hidden;
+    background-position: bottom;
+    max-height: 660px;
+  }
+
+  .landing nav {
+    padding: 20px 0;
+    margin-bottom: 100px;
+  }
+
+  .landing nav .logo span {
+    font-size: 30px;
+    color: var(--main-color);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .landing nav .menu {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    right: -50px;
+  }
+
+  .landing nav .menu::after {
+    content: "";
+    display: inline-block;
+    padding: 26px;
+    background-color: #ffffff42;
+    position: absolute;
+    top: -22px;
+    width: 595px;
+    height: 66px;
+    left: -47px;
+    transform: skewX(15deg);
+  }
+
+  .landing nav img {
+    width: 70%;
+    cursor: pointer;
+  }
+
+  .padding {
+    padding: 0 40px;
+  }
+  .slider-whole {
+    width: 107%;
+  }
+
+  .landing .sand-box {
+    /* margin-bottom: 90px; */
+  }
+
+  .landing .sand-box img {
+    width: 65%;
+  }
+
+  .digital-rs {
+    background-image: url("../../assets/car-inner.png");
+    backdrop-filter: blur(42px);
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 0px 30px;
+    background-color: #ffffff44;
+    border-radius: 40px;
+    color: #fff;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+
+  /* Digital Real Estate */
+  .digital-rs h6 {
+    font-size: 25px;
+  }
+
+  .digital-rs .digital-box {
+    background-color: #ffffffc9;
+    padding: 20px;
+    margin: 10px 0;
+    height: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 2px #cecece;
+  }
+
+  .digital-rs .digital-box img {
+    width: 131px;
+    height: 130px;
+    border: 1px solid var(--main-color);
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .digital-rs .digital-box h2 {
+    color: var(--sec-color);
+    margin: 12px 0;
+  }
+
+  .digital-rs .digital-box button {
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+
+  .digital-rs .digital-box button:hover {
+    background-color: #b8843b;
+  }
+
+  .digital-box-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  /* Social media*/
+  .social-media {
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+  }
+
+  .social-media ul {
+    list-style: none;
+  }
+
+  .social-media ul li {
+    margin: 7px 0;
+  }
+
+  .social-media ul li a {
+    color: var(--main-color);
+    font-size: 18px;
+  }
+
+  .social-media ul li .vl {
+    border-left: 4px solid #ffff;
+    height: 35px;
+    margin-left: 5px;
+  }
+
+  .landing {
+    .sl-text {
+      font-size: 15px;
+      line-height: 25px;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+      p {
+        color: #fff;
+        font-family: Poppins;
+        margin-bottom: 15px;
+        font-weight: 200;
+      }
+      .btn-continue {
+        font-family: Poppins;
+        font-size: 15px;
+        font-weight: 400;
+      }
+    }
+    .sl-heading {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+  }
+
+  /*=======================*/
+  /* Sectoion Form */
+  .form {
+    position: relative;
+    padding: 0;
+  }
+
+  .form .top-img,
+  .form .bottom-img {
+    position: absolute;
+  }
+
+  .form .top-img img,
+  .form .bottom-img img {
+    width: 70%;
+  }
+
+  .form .top-img {
+    top: 155px;
+    left: 0;
+  }
+
+  .form .bottom-img {
+    top: 40px;
+    right: 0;
+  }
+
+  .form form {
+    z-index: 2;
+    position: relative;
+  }
+
+  .form form .row {
+    margin: 15px 0;
+  }
+
+  .form form .search {
+    font-family: Source Serif Pro;
+    background-color: var(--main-color);
+    border: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+
+  .form form .search:hover {
+    background-color: #b8843b;
+  }
+
+  .form form .advanced-sh a {
+    text-decoration: none;
+    color: #003dc2;
+  }
+
+  .form form .advanced-sh a::after {
+    content: " >";
+    color: #c58936;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .form form .c-select {
+    border: 0;
+    border-radius: 0;
+    height: 50px;
+    background-image: url("../../assets/chev.png") !important;
+    background-color: #fff;
+    background-size: 15px;
+  }
+
+  .form form .search-box {
+    border-radius: 0;
+    height: 50px;
+    border-color: rgba(206, 212, 218, 0.3);
+  }
+
+  .form form .z-indexing {
+    z-index: 2;
+  }
+
+  /*=======================*/
+  /* Sectoion Sale */
+  .sale {
+    position: relative;
+  }
+
+  .sale h1 {
+    color: var(--sec-color);
+    font-size: 55px;
+  }
+
+  .sale h1 span {
+    letter-spacing: 2px;
+  }
+
+  .sale .sale-box {
+    position: relative;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .sale .sale-box img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .sale .sale-box .sale-box-info {
+    padding: 15px;
+    position: relative;
+  }
+  .sale .sale-box .sale-box-info p {
+    margin-bottom: 0;
+  }
+
+  .sale .sale-box .sale-box-info p label {
+    margin-bottom: 0;
+  }
+
+  .sale .sale-box h2 {
+    font-size: 22px;
+    color: var(--sec-color);
+    font-weight: bold;
+  }
+
+  .sale .sale-box .road-adj {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+
+  .sale .sale-box h6 {
+    font-size: 15px;
+  }
+
+  .sale .sale-box h6 span {
+    font-size: 22px;
+  }
+
+  .sale .sale-box p {
+    overflow-wrap: anywhere;
+  }
+
+  .modal-parcel-box {
+  }
+  .modal-parcel-box p {
+    line-break: anywhere;
+  }
+
+  .modal-parcel-box-heading {
+  }
+
+  /*=======================*/
+  /* Sectoion Rent */
+  .rent {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* padding: 40px 0; */
+    max-height: 570px;
+  }
+
+  .rent .rent-fe {
+    background-image: url("../../assets/rent-fe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 40px 0;
+    max-height: 570px;
+  }
+
+  .rent h1 {
+    color: #fff;
+    font-size: 55px;
+  }
+
+  .rent h1 span {
+    letter-spacing: 2px;
+  }
+
+  .rent .row {
+    row-gap: 8px;
+  }
+
+  .rent-gallery {
+    position: relative;
+    border-bottom: 3px solid var(--main-color);
+    overflow: hidden;
+  }
+  .rent-gallery img {
+    height: 100%;
+  }
+
+  .rent-gallery .parcel {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    bottom: 0px;
+    background-color: #fff;
+    padding: 7px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: bottom 0.3s ease;
+    -webkit-transition: bottom 0.3s ease;
+    -moz-transition: bottom 0.3s ease;
+    -ms-transition: bottom 0.3s ease;
+    -o-transition: bottom 0.3s ease;
+    font-family: Roboto;
+  }
+
+  .rent-gallery:hover .parcel {
+    bottom: 0;
+  }
+  .parcel:hover {
+    bottom: 0;
+  }
+
+  .rent-gallery .parcel ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+  }
+
+  .rent-gallery .parcel ul li {
+    display: inline;
+    color: var(--main-color);
+    margin-right: 5px;
+  }
+
+  .rent-gallery .parcel ul li i {
+    background-color: #eeeeee;
+    padding: 5px;
+    opacity: 0.4;
+  }
+
+  .rent-gallery .parcel h6 {
+    font-size: 17px;
+  }
+
+  /*=======================*/
+  /* Sectoion News*/
+  .news-section {
+    margin-top: 20px;
+  }
+
+  .news {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    font-family: Poppins;
+  }
+
+  .news-box li {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #00487c;
+    line-height: 45px;
+  }
+
+  .news-box li .r-t {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .news-box .o-s {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+  }
+
+  .news .news-box img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    margin-top: -80px;
+  }
+
+  .news .news-box-cont {
+    padding-top: 7px;
+    margin-left: 30px;
+
+    p {
+      font-size: 13px;
+    }
+  }
+
+  /*=======================*/
+  /* Sectoion Footer */
+  footer {
+    background: linear-gradient(89.98deg, #000047 -4.74%, #0c2868 139.39%);
+    padding-top: 40px;
+    position: relative;
+    z-index: 88;
+    font-family: Poppins;
+  }
+
+  footer .footer-bg {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+  footer .footer-bg img {
+    width: 50%;
+    display: inline;
+    opacity: 0.4;
+  }
+
+  footer .address {
+    position: relative;
+    bottom: -25px;
+    color: #fff;
+    font-size: 13px;
+  }
+
+  footer .address ul,
+  footer .prop ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  footer .address ul li,
+  footer .prop ul li {
+    color: #fff;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    opacity: 0.8;
+  }
+
+  footer .prop h6 {
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  /* footer .prop ul li::before {
+    content: "\25CB";
+    color: var(--main-color);
+    margin-right: 5px;
+  } */
+
+  footer .copyright {
+    width: 100%;
+    background: #140e59;
+    color: #fff;
+    z-index: 9999;
+    line-height: 2.5;
+    z-index: 999;
+    margin-top: 50px;
+  }
+
+  footer .copyright p {
+    margin-bottom: 0px;
+  }
+
+  footer .ft-cont {
+    padding-bottom: 20px;
+  }
+
+  footer .ct-cont {
+    padding-bottom: 50px;
+    border-bottom: 1px dashed #ffffff;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: #fff;
+    .footer-box-contact {
+      display: flex;
+      justify-content: space-between;
+      .contact-lab {
+        display: flex;
+        img {
+          height: 70px;
+          width: 70px;
+        }
+        div {
+          display: grid;
+          margin-left: 20px;
+          height: 80px;
+          padding-top: 5px;
+          label {
+            margin: 0;
+          }
+          label:first-child {
+            height: 5px;
+          }
+          .header {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            opacity: 0.8;
+          }
+          .val {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-box h6 {
+    letter-spacing: 1px;
+    color: #fff;
+  }
+
+  .sidebar-cls {
+    background: rgba(82, 182, 255, 0.5);
+    z-index: 10;
+  }
+  .sidebar-inner {
+    width: 250px;
+  }
+
+  .sidebar-inner ul {
+    list-style: none;
+  }
+
+  .sidebar-inner ul li {
+    color: #c2dde9;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+  }
+  .sidebar-inner ul li a {
+    color: #dca85e;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .sidebar-overlay {
+    background-color: transparent !important;
+  }
+
+  .abv-footer {
+    padding-bottom: 100px;
+  }
+
+  .your-land-container {
+    margin-top: 6rem;
+  }
+}
+
+/*=======================*/
+/* Sectoion price */
+.price {
+  padding: 40px 0 60px 0;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--back-color);
+}
+.price .price-grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 20%;
+}
+.price .price-grid .price-box {
+  padding: 20px;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  overflow: hidden;
+  z-index: 999;
+  border: solid var(--main1-color);
+}
+.price .price-grid .price-box h6 {
+  color: var(--sec-color);
+  font-size: 22px;
+}
+.price .price-grid .price-box h5 {
+  font-size: 22px;
+}
+.price .price-grid .price-box .price-box-cont {
+  margin-bottom: 55px;
+}
+.price .price-grid .price-box .mana {
+  background-color: var(--main1-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+.price .price-grid .price-box .mana span:first-child {
+  font-size: 28px;
+}
+.price .price-grid .price-box .mana span:nth-child(2) {
+  font-size: 21px;
+}
+.price .back-img-price-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 8;
+}
+.price .back-img-price-right img {
+  width: 60%;
+  float: right;
+}
+.price .back-img-price-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 8;
+}
+.price .back-img-price-left img {
+  width: 45%;
+  float: left;
+}
+/*=======================*/
+/* Sectoion Location */
+.location {
+  margin: 0px !important;
+  /* display: grid;
+  grid-template-columns: 65% 34.5%;
+  gap: 0.5%; */
+  /* margin: 20px 0; */
+}
+/* .location .location-box-first {
+  background-image: url("../../assets/location.png");
+  background-repeat: round;
+  background-size: cover;
+} */
+.location .location-box-first {
+  position: relative;
+}
+.location .location-box-first .center {
+  background-color: #00487c;
+  padding: 15px;
+  position: relative;
+  top: 55px;
+  left: 25%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.location .location-box-first .center label {
+  color: #fff;
+}
+.location .location-box-first .center input {
+  width: 10%;
+}
+.location .location-box-first .center input[type="button"] {
+  background-color: var(--main-color);
+  color: #fff;
+  border: 0;
+  margin-left: 20px;
+}
+.location-box-sec {
+  background-color: #06425c;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.location-box-sec h6 {
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.location-box-sec img {
+  max-height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.location .location-box-sec .info h4 {
+  color: #fff;
+  margin: 20px 0;
+  font-size: 18px;
+}
+.location .location-box-sec .info i {
+  background-color: #ffffffeb;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  color: #011a38;
+}
+.location .location-box-sec .info .info-cont h3 {
+  color: #fff;
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+.location .location-box-sec .info .info-cont h5 {
+  font-weight: normal;
+  font-size: 17px;
+}
+.inner-info {
+  margin-bottom: 25px;
+}
+.location .location-box-sec .info .info-cont {
+  position: absolute;
+  top: -3px;
+  left: 56px;
+}
+.location .location-box-sec p {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+}
+/* ------------------------------------------------------------ */
+
+.location-box-secon {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  .sec {
+    height: 65px;
+    background: #00487c;
+    display: flex;
+    .head {
+      margin: auto 0px;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 38px;
+      display: flex;
+      align-items: center;
+
+      color: #ffffff;
+    }
+  }
+  p {
+    color: #9a9a9a;
+    font-family: Poppins;
+  }
+  .address {
+    font-size: 23px;
+    font-family: Poppins;
+  }
+  .info-cont {
+    font-family: Poppins;
+  }
+}
+.location-box-secon-seller {
+  padding: 0;
+}
+.location-box-secon h6 {
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 20px;
+}
+.location-box-secon img {
+  min-height: 450px;
+  max-height: 450px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.location .location-box-secon .info h4 {
+  color: #fff;
+  margin: 20px 0;
+  font-size: 18px;
+}
+.location .location-box-secon .info i {
+  background-color: #ffffffeb;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 25px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  color: #011a38;
+}
+.location .location-box-secon .info .info-cont h3 {
+  color: #fff;
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-top: 3px;
+}
+.location .location-box-secon .info .info-cont h5 {
+  font-weight: normal;
+  font-size: 17px;
+}
+.inner-info {
+  margin-bottom: 25px;
+}
+.location .location-box-secon .info .info-cont {
+  position: absolute;
+  top: -3px;
+  left: 56px;
+}
+.location .location-box-secon p {
+  color: #fff;
+  margin: 0;
+  font-size: 14px;
+}
+
+.location-section {
+  /* margin-top: 40px; */
+  .main-heading {
+    font-size: 60px;
+    line-height: 113.7%;
+    letter-spacing: 2px;
+  }
+  .sec-heading {
+    h5 {
+      margin-bottom: 0;
+    }
+  }
+  .fz-34 {
+    font-size: 34px;
+  }
+  .fz-40 {
+    font-size: 40px;
+  }
+  .location-mainheader {
+    background-color: #18141a;
+    height: 64px;
+    .navbar-nav {
+      li {
+        &.active {
+          a {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    a {
+      color: #fff;
+    }
+  }
+  .footer1 {
+    background: #18141a !important;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    .links {
+      display: flex;
+      align-items: center;
+      a {
+        color: #676370;
+        margin-right: 16px;
+      }
+    }
+    .social-links {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      color: #676370;
+      a {
+        color: #676370;
+        margin-right: 16px;
+        display: flex;
+        align-items: center;
+        .social-icon {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          color: #676370;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+  }
+}
+
+//---------------------
+.lsp-container {
+  .image-item {
+    padding: 20px 0 20px 20px;
+  }
+
+  .react-multi-carousel-list {
+    button {
+      background-color: var(--main1-color);
+      &:hover {
+        background-color: var(--main1-color);
+      }
+    }
+    .react-multiple-carousel__arrow {
+      min-width: 33px;
+      min-height: 35px;
+    }
+    .react-multiple-carousel__arrow::before {
+      color: var(--sec-color);
+    }
+    .react-multiple-carousel__arrow--left {
+      left: 32%;
+    }
+    .react-multiple-carousel__arrow--right {
+      right: 32%;
+    }
+    .react-multi-carousel-track {
+      padding-top: 15px;
+    }
+  }
+
+  .react-multi-carousel-item {
+    /* opacity: 0.6; */
+    /* padding: 10px; */
+    img {
+      max-height: 300px;
+      min-height: 300px;
+      min-width: 800px;
+    }
+    .image {
+      min-height: 300px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      opacity: 0.6;
+    }
+    .rent-gallery {
+      border-bottom: 0px;
+      border-radius: 10px;
+    }
+  }
+  .active-ele {
+    padding: 0;
+    bottom: 20px;
+    .image {
+      opacity: 1 !important;
+      max-height: 340px !important;
+      min-height: 340px !important;
+    }
+
+    .parcel {
+      padding-bottom: 15px;
+    }
+  }
+}
+
+.messaging {
+  width: 65px;
+  position: relative;
+  right: 25px;
+  bottom: 15px;
+  z-index: 100;
+  img {
+    width: 100%;
+  }
+}
+
+.messaging-div {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  top: 25px;
+}
+
+.dbr {
+  border-right: 1px solid #ebebeb;
+  line-height: 40px;
+}
+
+.btn-close-d {
+  width: 100px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  z-index: 9;
+  font-size: 20px;
+  background: var(--main-color);
+  border: 0;
+
+  text-shadow: 0 1px 0 #fff;
+  line-height: 1;
+  color: #fff;
+  height: 40px;
+  border-radius: 25px;
+  font-family: Source Serif Pro;
+  font-style: normal;
+  font-weight: normal;
+}
+
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 600px;
+  }
+}
+
+.p-n-c {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.p-n-c-s {
+  position: relative;
+  bottom: 12px;
+  span {
+    font-size: 18px;
+  }
+}
+
+.subtitle-heding {
+  font-size: 13px;
+  color: #7f7f7f;
+}
+
+.react-switch-bg {
+  .checked-icon-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 15px;
+    color: #fff;
+  }
+  .unchecked-icon-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 15px;
+    color: #fff;
+    padding-right: 2;
+    font-family: Source Serif Pro;
+  }
+}
+
+.p-modal-confirm-btn {
+  font-family: Source Serif Pro;
+  background-color: var(--main-color);
+  border: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.y-l-l {
+  /* B/b1_14_reguler */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  color: #000000;
+
+  opacity: 0.8;
+}
+.main-heading {
+  /* H/h1_32_semibold */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.label-options {
+  font-size: 14px;
+  color: #808080;
+}
+
+.label-options-value {
+  font-size: 14px;
+  color: #29333d;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.car-imgs {
+  width: 100%;
+  height: auto;
+  max-width: 560px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  max-height: 475px;
+}
+.d-img {
+  min-width: 444px;
+  min-height: 444px;
+}
+.ellipses-img {
+  position: absolute;
+  background-image: url("../../assets/Ellipse 2.png");
+}
+
+.bg-blur {
+  filter: blur(20px);
+}
+
+.on-sale-div {
+  width: 109px;
+  position: absolute;
+  background: rgb(242, 158, 42);
+  height: 30px;
+  border-radius: 23px;
+  left: calc((50% - 54.5px) - 155.5px);
+  top: 21px;
+  label {
+    position: absolute;
+    width: 54px;
+    height: 21px;
+    left: calc(50% - 54px / 2 - 0.5px);
+    top: calc(50% - 21px / 2 + 0.5px);
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+}

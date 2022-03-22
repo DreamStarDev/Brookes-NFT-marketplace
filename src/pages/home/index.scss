@@ -1,0 +1,760 @@
+/*=========*/
+/* Normal */
+:root {
+  --main-color: #dca85e;
+  --sec-color: #003774;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.main-color {
+  color: #dca85e;
+}
+
+.sec-color {
+  color: #003774;
+}
+
+.home-comp {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /*=======================*/
+  /* Sectoion landing*/
+  .landing {
+    background-image: url("../../assets/bk-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .landing nav {
+    padding: 20px 0;
+    margin-bottom: 100px;
+  }
+
+  .landing nav .logo span {
+    font-size: 30px;
+    color: var(--main-color);
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .landing nav .menu {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    right: -50px;
+  }
+
+  .landing nav .menu::after {
+    content: "";
+    display: inline-block;
+    padding: 26px;
+    background-color: #ffffff42;
+    position: absolute;
+    top: -22px;
+    width: 595px;
+    height: 66px;
+    left: -47px;
+    transform: skewX(15deg);
+  }
+
+  .landing nav img {
+    width: 70%;
+    cursor: pointer;
+  }
+
+  .padding {
+    padding: 0 40px;
+  }
+
+  .landing .sand-box {
+    margin-bottom: 90px;
+  }
+
+  .landing .sand-box img {
+    width: 65%;
+  }
+
+  .digital-rs {
+    margin-top: 30px;
+    padding: 40px 100px;
+    background-color: #ffffff44;
+    border-radius: 83px;
+    color: #fff;
+    -webkit-border-radius: 83px;
+    -moz-border-radius: 83px;
+    -ms-border-radius: 83px;
+    -o-border-radius: 83px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  /* Digital Real Estate */
+  .digital-rs h6 {
+    font-size: 25px;
+  }
+
+  .digital-rs .digital-box {
+    background-color: #ffffffc9;
+    padding: 20px;
+    margin: 10px 0;
+    height: 100%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 0 2px #cecece;
+  }
+
+  .digital-rs .digital-box img {
+    width: 131px;
+    height: 130px;
+    border: 1px solid var(--main-color);
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .digital-rs .digital-box h2 {
+    color: var(--sec-color);
+    margin: 12px 0;
+  }
+
+  .digital-rs .digital-box button {
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+
+  .digital-rs .digital-box button:hover {
+    background-color: #b8843b;
+  }
+
+  .digital-box-btn {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  /* Social media*/
+  .social-media {
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+  }
+
+  .social-media ul {
+    list-style: none;
+  }
+
+  .social-media ul li {
+    margin: 7px 0;
+  }
+
+  .social-media ul li a {
+    color: var(--main-color);
+    font-size: 18px;
+  }
+
+  .social-media ul li .vl {
+    border-left: 4px solid #ffff;
+    height: 35px;
+    margin-left: 5px;
+  }
+
+  /*=======================*/
+  /* Sectoion Form */
+  .form {
+    position: relative;
+    padding: 20px 0;
+  }
+
+  .form .top-img,
+  .form .bottom-img {
+    position: absolute;
+  }
+
+  .form .top-img img,
+  .form .bottom-img img {
+    width: 70%;
+  }
+
+  .form .top-img {
+    top: 0;
+    left: 0;
+  }
+
+  .form .bottom-img {
+    bottom: 0;
+    right: 0;
+  }
+
+  .form form {
+    margin: 70px auto;
+    background-color: #f7f7f7;
+    padding: 35px 10px;
+    border-radius: 10px;
+  }
+
+  .form form .row {
+    margin: 15px 0;
+  }
+
+  .form form .search {
+    font-family: Source Serif Pro;
+    background-color: var(--main-color);
+    border: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+
+  .form form .search:hover {
+    background-color: #b8843b;
+  }
+
+  .form form .advanced-sh a {
+    text-decoration: none;
+    color: #003dc2;
+  }
+
+  .form form .advanced-sh a::after {
+    content: " >";
+    color: #c58936;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .form form .c-select {
+    border: 0;
+    border-radius: 0;
+    height: 50px;
+    background-image: url("../../assets/chev.png") !important;
+    background-color: #fff;
+    background-size: 15px;
+  }
+
+  .form form .search-box {
+    border: 0;
+    border-radius: 0;
+    height: 50px;
+  }
+
+  .form form .z-indexing {
+    z-index: 2;
+  }
+
+  /*=======================*/
+  /* Sectoion Sale */
+  .sale {
+    position: relative;
+    background-color: #f7f7f7;
+    /* padding-top: 30px; */
+    padding-bottom: 80px;
+  }
+
+  .sale h1 {
+    color: var(--sec-color);
+    font-size: 55px;
+  }
+
+  .sale h1 span {
+    letter-spacing: 2px;
+  }
+
+  .sale .sale-box {
+    margin-top: 50px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .sale .sale-box img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .sale .sale-box .sale-box-info {
+    padding: 15px;
+    position: relative;
+  }
+  .sale .sale-box .sale-box-info p {
+    margin-bottom: 0;
+  }
+
+  .sale .sale-box .sale-box-info p label {
+    margin-bottom: 0;
+  }
+
+  .sale .sale-box h2 {
+    font-size: 18px;
+    color: var(--sec-color);
+    font-weight: bold;
+  }
+
+  .sale .sale-box .road-adj {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+
+  .sale .sale-box h6 {
+    font-size: 15px;
+  }
+
+  .sale .sale-box h6 span {
+    font-size: 22px;
+  }
+
+  .sale .sale-box p {
+    overflow-wrap: anywhere;
+  }
+
+  .modal-parcel-box {
+  }
+  .modal-parcel-box p {
+    line-break: anywhere;
+  }
+
+  .modal-parcel-box-heading {
+  }
+
+  /*=======================*/
+  /* Sectoion Rent */
+  .rent {
+    background-image: url("../../assets/lfr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* padding: 40px 0; */
+    max-height: 570px;
+  }
+
+  .rent .rent-fe {
+    background-image: url("../../assets/rent-fe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 40px 0;
+    max-height: 570px;
+  }
+
+  .rent h1 {
+    color: #fff;
+    font-size: 55px;
+  }
+
+  .rent h1 span {
+    letter-spacing: 2px;
+  }
+
+  .rent .row {
+    row-gap: 8px;
+  }
+
+  .rent-gallery {
+    position: relative;
+    border-bottom: 3px solid var(--main-color);
+    overflow: hidden;
+  }
+  .rent-gallery img {
+    height: 100%;
+  }
+
+  .rent-gallery .parcel {
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    bottom: -70px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: bottom 0.3s ease;
+    -webkit-transition: bottom 0.3s ease;
+    -moz-transition: bottom 0.3s ease;
+    -ms-transition: bottom 0.3s ease;
+    -o-transition: bottom 0.3s ease;
+    font-family: Roboto;
+  }
+
+  .rent-gallery:hover .parcel {
+    bottom: 0;
+  }
+  .parcel:hover {
+    bottom: 0;
+  }
+
+  .rent-gallery .parcel ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+  }
+
+  .rent-gallery .parcel ul li {
+    display: inline;
+    color: var(--main-color);
+    margin-right: 5px;
+  }
+
+  .rent-gallery .parcel ul li i {
+    background-color: #eeeeee;
+    padding: 5px;
+    opacity: 0.4;
+  }
+
+  .rent-gallery .parcel h6 {
+    font-size: 15px;
+  }
+
+  /*=======================*/
+  /* Sectoion Articles*/
+  .articles {
+    padding-top: 200px;
+    position: relative;
+  }
+  .articles .heading {
+    font-family: Source Serif Pro;
+    letter-spacing: 1px;
+  }
+
+  .articles .articles-matrix {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+  .articles .articles-matrix img {
+    width: 55%;
+    float: right;
+    height: 300px;
+  }
+
+  .articles h1 {
+    color: var(--sec-color);
+  }
+
+  .articles .articles-box {
+    /* margin-top: 40px; */
+  }
+
+  .articles-box-heading {
+    padding-top: 200px;
+  }
+
+  .articles-box-heading h3 {
+    font-size: 22px;
+    line-height: 43px;
+  }
+
+  /* .articles img {
+  height: 500px;
+} */
+
+  /*=======================*/
+  /* Sectoion News*/
+  .news {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    font-family: Rubik;
+  }
+
+  .news-box li {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: #00487c;
+    line-height: 45px;
+  }
+
+  .news-box li .r-t {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .news-box .o-s {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+  }
+
+  .news-box img {
+    max-width: 80%;
+  }
+
+  /*=======================*/
+  /* Sectoion Chat */
+  .chat {
+    /* background-color: #f7f7f7; */
+    padding: 70px 0;
+  }
+
+  .chat p {
+    margin: 20px 0;
+  }
+
+  .chat .chat-box-content {
+    padding: 40px 0;
+  }
+
+  /*=======================*/
+  /* Sectoion Leasing-prop */
+  .leasing-prop {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("../../assets/f-b.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-height: 390px;
+  }
+  .leasing-prop-sec {
+    padding: 70px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+      url("../../assets/f-fe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-height: 390px;
+  }
+
+  .leasing-prop .leasing-text {
+    padding: 40px;
+    width: 50%;
+    background-color: var(--sec-color);
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: 999;
+  }
+
+  .leasing-prop .leasing-text .border-bg {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    border: 2px solid var(--main-color);
+    border-bottom: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+  }
+
+  .leasing-prop .leasing-text h1 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .leasing-prop .leasing-text p {
+    color: #fff;
+    margin-bottom: 100px;
+  }
+
+  .leasing-prop .leasing-text h4 {
+    color: #fff;
+    position: relative;
+  }
+
+  .leasing-prop .leasing-text h4::before {
+    content: "";
+    width: 57px;
+    height: 3px;
+    padding: 1px;
+    position: absolute;
+    top: -20px;
+    display: inline-block;
+    transform: rotate(180deg);
+    background-color: var(--main-color);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+  }
+
+  .leasing-prop .leasing-text h4::after {
+    content: "";
+    width: 200px;
+    height: 3px;
+    padding: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    display: inline-block;
+    transform: rotate(180deg);
+    background-color: var(--main-color);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+  }
+
+  /*=======================*/
+  /* Sectoion Footer */
+  footer {
+    background-color: #011a38;
+    padding-top: 110px;
+    position: relative;
+    z-index: 88;
+  }
+
+  footer .footer-bg {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+  footer .footer-bg img {
+    width: 50%;
+    display: inline;
+    opacity: 0.4;
+  }
+
+  footer .address {
+    position: relative;
+    bottom: -130px;
+  }
+
+  footer .address ul,
+  footer .prop ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  footer .address ul li,
+  footer .prop ul li {
+    color: #fff;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  footer .prop h6 {
+    font-family: Source Serif Pro;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  footer .prop ul li::before {
+    content: "\25CB";
+    color: var(--main-color);
+    margin-right: 5px;
+  }
+
+  footer .copyright {
+    width: 100%;
+    background-color: var(--sec-color);
+    color: #fff;
+    z-index: 9999;
+    line-height: 2.5;
+    z-index: 999;
+  }
+
+  footer .copyright p {
+    margin-bottom: 0px;
+  }
+
+  footer .ft-cont {
+    padding-bottom: 20px;
+  }
+
+  .footer-box h6 {
+    letter-spacing: 1px;
+  }
+
+  .sidebar-cls {
+    background: rgba(82, 182, 255, 0.5);
+    z-index: 10;
+  }
+  .sidebar-inner {
+    width: 250px;
+  }
+
+  .sidebar-inner ul {
+    list-style: none;
+  }
+
+  .sidebar-inner ul li {
+    color: #c2dde9;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+  }
+  .sidebar-inner ul li a {
+    color: #dca85e;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .sidebar-overlay {
+    background-color: transparent !important;
+  }
+}

@@ -1,0 +1,136 @@
+.signin-modal-continer {
+  font-family: Rubik;
+  @media (min-width: 992px) {
+    .signin-modal {
+      max-width: 600px;
+    }
+  }
+
+  #loader {
+    left: 50%;
+    top: 25%;
+    margin: -76px 0 0 -76px;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 2px solid #3498db;
+    border-bottom: 2px solid #3498db;
+    border-left: 2px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes animatebottom {
+    from {
+      bottom: -100px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes animatebottom {
+    from {
+      bottom: -100px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+}
+
+.signin {
+  background: var(--back-color);
+  font-family: Rubik;
+
+  .login-heading {
+    color: #00487c;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  form {
+    .submit {
+      font-family: Source Serif Pro;
+      background-color: var(--main-color);
+      border: 0;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      line-height: 60px;
+    }
+    .new-user {
+      color: #00487c;
+    }
+    .input-field {
+      border: 0;
+      border-radius: 0;
+      height: 60px;
+    }
+    .f-p {
+      color: #00487c;
+    }
+
+    ::placeholder {
+      color: #161616;
+      opacity: 0.36;
+    }
+    .react-tel-input {
+      .form-control {
+        width: 100%;
+        height: 60px;
+        border: 0px;
+        border-radius: 0;
+      }
+      .flag-dropdown {
+        border: 0px;
+        background-color: transparent;
+      }
+      .country-list {
+        text-align: left;
+        width: 100px;
+      }
+      .country {
+        .country-name {
+          display: none;
+        }
+        
+      }
+    }
+  }
+}

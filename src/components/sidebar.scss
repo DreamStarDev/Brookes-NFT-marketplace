@@ -1,0 +1,40 @@
+.fdNrZr {
+  color: rgb(31, 199, 212);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-right: 16px;
+}
+.iUXnyj {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: fit-content;
+  fill: rgb(31, 199, 212);
+}
+
+.cCINkC {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(31, 199, 212);
+  fill: rgb(31, 199, 212);
+}
+.bikzk {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.fdNrZr:hover {
+  color: rgb(31, 199, 212);
+}
+
+.your-wallet-modal-container {
+  font-family: Rubik;
+  @media (min-width: 992px) {
+    .your-wallet-modal {
+      top: 15%;
+    }
+  }
+}

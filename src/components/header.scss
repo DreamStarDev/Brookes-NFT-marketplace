@@ -1,0 +1,50 @@
+.top-header {
+  background: #000248;
+  color: #fff !important;
+  font-family: Poppins !important;
+  height: 80px;
+  .nav-link {
+    color: #fff !important;
+  }
+  .dropdown-toggle::after {
+    content: url("../assets/dd-chevron.png");
+    border: 0px;
+    margin-left: 1rem;
+    vertical-align: 0.055em;
+  }
+  .home-btn-style {
+    cursor: pointer;
+  }
+  .username-style {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #f29e2a;
+  }
+  .n-dd-style {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 200% */
+
+    color: #000000;
+  }
+
+  .n-dd-logout {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    color: #000000;
+  }
+  .dropdown-divider {
+    border: 1px dashed #cfd6df;
+  }
+}

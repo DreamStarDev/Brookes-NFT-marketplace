@@ -1,0 +1,147 @@
+.connect-wallet-modal-continer {
+  font-family: Rubik;
+  @media (min-width: 992px) {
+    .connect-wallet-modal {
+      max-width: 350px;
+      top: 15%;
+    }
+  }
+
+  #loader {
+    left: 50%;
+    top: 25%;
+    margin: -76px 0 0 -76px;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 2px solid #3498db;
+    border-bottom: 2px solid #3498db;
+    border-left: 2px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes animatebottom {
+    from {
+      bottom: -100px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0px;
+      opacity: 1;
+    }
+  }
+
+  @keyframes animatebottom {
+    from {
+      bottom: -100px;
+      opacity: 0;
+    }
+    to {
+      bottom: 0;
+      opacity: 1;
+    }
+  }
+}
+
+.connect-wallet {
+  background: var(--back-color);
+  font-family: Rubik;
+
+  .login-heading {
+    color: #00487c;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  form {
+    .submit {
+      font-family: Source Serif Pro;
+      background-color: var(--main-color);
+      border: 0;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      line-height: 60px;
+      -webkit-box-align: center;
+      align-items: center;
+      border: 0px;
+      border-radius: 16px;
+      cursor: pointer;
+      display: inline-flex;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 600;
+      -webkit-box-pack: center;
+      justify-content: center;
+      letter-spacing: 0.03em;
+      line-height: 1;
+      opacity: 1;
+      outline: 0px;
+      transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+      height: 48px;
+      padding: 0px 24px;
+      background-color: rgb(239, 244, 245);
+      box-shadow: none;
+      color: rgb(31, 199, 212);
+      width: 100%;
+      margin-bottom: 8px;
+      justify-content: space-between;
+    }
+    .new-user {
+      color: #00487c;
+    }
+    .input-field {
+      border: 0;
+      border-radius: 0;
+      height: 60px;
+    }
+    .f-p {
+      color: #00487c;
+    }
+
+    ::placeholder {
+      color: #161616;
+      opacity: 0.36;
+    }
+  }
+}
+
+.modal-header .close {
+  margin-top: -8px;
+}
+
+.cw-mb {
+  background: unset;
+}

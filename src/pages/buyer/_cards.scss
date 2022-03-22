@@ -1,0 +1,104 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+/* Your customizations here */
+
+@import "~bootstrap/scss/bootstrap";
+
+.cardsview {
+  padding: 80px 0;
+  position: relative;
+  .c1,
+  .c2,
+  .c3 {
+    position: absolute;
+    filter: blur(10px);
+  }
+  .c1 {
+    left: 0;
+    top: 0;
+  }
+  .c2 {
+    bottom: 0;
+    right: 10%;
+  }
+  .c3 {
+    right: 0;
+    top: 20%;
+  }
+  padding: 40px 0;
+}
+.p-cards {
+  background: #ffffff;
+  box-shadow: 0px -6.31059px 25.2424px rgba(0, 0, 0, 0.15);
+  border: 0;
+  margin-bottom: 30px;
+  @include transition(all 0.31s ease);
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 11px 25px 5px rgba(0, 0, 0, 0.09);
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .badge {
+    background-color: #fce2c0;
+    color: #f29e2a;
+    border-radius: 50px;
+    padding: 6px 15px;
+  }
+  h3 {
+    font-weight: 600;
+    margin: 12px 0;
+  }
+  .card-text {
+    color: #7f7f7f;
+    font-size: 13px;
+    margin: 0 0 12px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    span {
+      color: $primary;
+    }
+    p {
+      color: #29333d;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}
+.horizontal-cards {
+  .p-cards {
+    background-color: transparent;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    .card-body {
+      padding: 0.75rem;
+    }
+    h3 {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+    .card-text {
+      font-size: 12px;
+      margin: 0 0 8px;
+      line-height: normal;
+    }
+    ul {
+      span {
+        font-size: 12px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+/* .App {
+  font-family: Rubik;
+} */
+
+.source-serif-font {
+  font-family: Source Serif Pro;
+}
+
+.App .Loader {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  z-index: 10000;
+  opacity: 0.9;
+  display: none;
+}
+.App .Loader div {
+  display: grid;
+  place-items: center;
+  top: 40%;
+  position: relative;
+}
+
+.header-username {
+  display: inline-flex;
+  color: #fff;
+  text-transform: capitalize;
+  position: absolute;
+  overflow: hidden;
+  width: 535px;
+}
+
+.App .backdrop-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.App .backdrop-container.active {
+  z-index: 99;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

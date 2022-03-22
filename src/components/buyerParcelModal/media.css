@@ -1,0 +1,25 @@
+
+  /*Media Query for XS screen*/
+  @media (max-width: 767px) {
+    /*====================*/
+    /* DCL */
+    .dcl .close-dcl {
+      margin: 20px 0;
+    }
+    /*====================*/
+  }
+
+  /*Media Query for S screen*/
+  @media (min-width: 768px) and (max-width: 991px) {
+    /*====================*/
+    /* DCL */
+    .dcl .close-dcl {
+      margin: 20px 0;
+    }
+    /*====================*/
+  }
+
+  /*Media Query for Med screen*/
+  @media (min-width: 1480px) {
+  }
+

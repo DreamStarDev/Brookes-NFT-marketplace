@@ -1,0 +1,280 @@
+/*Media Query for XS screen*/
+@media (max-width: 767px) {
+
+    /*=======================*/
+    /* Sectoion landing*/
+    .sand-box img {
+        width: 100%;
+    }
+
+    .padding {
+        padding: 0;
+    }
+
+    .digital-rs {
+        padding: 40px 13px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .digital-rs .row div {
+        margin: 10px 0;
+    }
+
+    .social-media {
+        left: -34px;
+    }
+
+    .seller-comp .slider-whole {
+        width: 100%;
+      }
+
+    /*=======================*/
+    /* Sectoion Form */
+    .form .top-img img,
+    .form .bottom-img img {
+        width: 45%;
+    }
+
+    .form form input,
+    select {
+        margin: 10px 0;
+    }
+
+    /*=======================*/
+    /* Sectoion Sale */
+    .sale .sale-box img {
+        width: 100%;
+    }
+    /*=======================*/
+/* Sectoion price */
+.price .price-grid{
+    grid-template-columns: 100%;
+    gap: 8%;
+}
+/*=======================*/
+/* Sectoion Location */
+.location{
+    grid-template-columns: 100%;
+}
+.location .location-box-first{
+    min-height: 500px;
+}
+.location-box-sec img{
+    height: auto;
+}
+.location .location-box-first .center{
+    left: 20%;
+}
+.location .location-box-first .center input[type="submit"]{
+    width: 90px;
+}
+
+    /*=======================*/
+    /* Sectoion Rent */
+    .rent {
+        max-height: 1500px;
+    }
+
+    /*=======================*/
+    /* Sectoion Articles */
+    .articles {
+        padding: 230px 0;
+
+    }
+
+    .articles .articles-matrix {
+        top: 190px;
+    }
+
+    .articles .articles-matrix img {
+        width: 35%;
+    }
+
+    /*=======================*/
+    /* Sectoion News */
+    .news-box {
+        margin: 20px 0;
+    }
+
+    /*=======================*/
+    /* Sectoion Leasing-prop */
+    .leasing-prop .leasing-text {
+        width: 100%;
+    }
+
+    footer .address {
+        position: relative;
+        bottom: 0;
+    }
+
+    /*=======================*/
+    /* Sectoion Footer */
+    footer {
+        padding-top: 275px;
+    }
+}
+
+
+/*Media Query for Extreme S screen*/
+@media (max-width: 320px) {
+
+    /*=======================*/
+    /* Sectoion Sale */
+    .sale .sale-box h2 {
+        font-size: 15px;
+    }
+
+    /*=======================*/
+    /* Sectoion Footer */
+    footer {
+        padding-top: 290px;
+    }
+}
+
+
+/*Media Query for S screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*=======================*/
+    /* Sectoion landing*/
+    .sand-box img {
+        width: 100%;
+    }
+
+    .padding {
+        padding: 0;
+    }
+
+    .seller-comp .slider-whole {
+        width: 100%;
+    }
+
+    .digital-rs {
+        padding: 40px 13px;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .social-media {
+        left: -30px;
+    }
+
+    /*=======================*/
+    /* Sectoion Form */
+    .form .top-img img,
+    .form .bottom-img img {
+        width: 45%;
+    }
+
+    .form form input,
+    select {
+        margin: 10px 0;
+    }
+
+    /*=======================*/
+    /* Sectoion Rent */
+    .rent-gallery .parcel {
+        bottom: -100px;
+    }
+
+    /*=======================*/
+    /* Sectoion Sale */
+    .sale .sale-box img {
+        width: 100%;
+    }
+
+    .sale .sale-box h2 {
+        font-size: 15px;
+    }
+
+    .sale .sale-box .road-adj {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    /*=======================*/
+    /* Sectoion Articles */
+    .articles {
+        padding: 175px 0;
+
+    }
+
+    .articles .articles-matrix img {
+        width: 45%;
+    }
+
+    /*=======================*/
+    /* Sectoion News */
+    .news-box {
+        margin: 20px 0;
+    }
+    /*=======================*/
+/* Sectoion Location */
+.location{
+    grid-template-columns: 63% 36.5%;
+}
+.location .location-box-first{
+    min-height: 500px;
+}
+.location-box-sec img{
+    height: auto;
+}
+.location .location-box-first .center{
+    left: 25%;
+}
+.location .location-box-first .center input[type="submit"]{
+    width: 90px;
+}
+}
+
+/*Media Query for Med screen*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*=======================*/
+    /* Sectoion Rent */
+    .rent-gallery .parcel {
+        bottom: -100px;
+    }
+
+    /*=======================*/
+    /* Sectoion Sale */
+    .sale .sale-box .road-adj {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+}
+@media (min-width: 1200px) and (max-width: 2000px) {
+    .price .back-img-price-right img{
+        width: 80%;
+        float: right;
+    }
+    .price .back-img-price-left img{
+        width: 65%;
+        float: left;
+    }
+}
+@media (min-width: 1800px){
+    .seller-comp .slider-whole{
+        width: 126%;
+        margin-left: -14%;
+    }
+    .top-header .container {
+        max-width: 1445px;
+    }
+    .sub-container {
+        width: 95%;
+        margin-left: -14%;
+      }
+}
